@@ -1,0 +1,50 @@
+baseURL: https://portfolio.hungcq.xyz/
+languageCode: en-us
+title: Portfolio | HungCQ
+theme: PaperMod
+
+params:
+  env: production
+  author: HungCQ
+  info: A Skeptic
+  description: HungCQ | Portfolio
+  keywords:
+    - software-engineering
+  gravatar: hungcqrt@gmail.com
+
+  assets:
+    favicon: /images/my-face-square.jpg
+
+  since: 2025
+
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: false
+  comments: false
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  socialIcons:
+    - name: github
+      url: https://github.com/hungcq
+
+menu:
+  main:
+    - name: Home
+      weight: 1
+      url : /
+    - name: Essays
+      weight: 2
+      url : categories/essays/
+    - name: Poems
+      weight: 3
+      url : categories/poems/
+    - name: In English
+      weight: 4
+      url : categories/english/
+    - name: In Vietnamese
+      weight: 5
+      url : categories/vietnamese/
