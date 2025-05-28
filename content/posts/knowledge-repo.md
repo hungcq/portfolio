@@ -1,6 +1,16 @@
 ---
+weight: 1
 date: '2021-08-02T08:17:00+07:00'
 title: 'Knowledge Repository'
+github: https://github.com/hungcq/knowledge-repo
+hlink: https://knowledge-repo.hungcq.xyz
+cover:
+  image: /images/knowledge-repo.png
+#  caption: "[Knowledge Repository rendered via GitBook](https://knowledge-repo.hungcq.xyz)"
+summary: >
+  I've been maintaining this [personal knowledge repository](https://github.com/hungcq/knowledge-repo) since 2021.
+  It's where I distill and document what I've learned.
+  The topics are broad, spanning philosophy, science, software engineering, and business.
 ---
 
 I'm a lifelong learner. Learning is my commitment-it gives my life meaning and purpose.
@@ -14,7 +24,7 @@ I also earned the [AWS Solutions Architect Associate certification](https://www.
 within 1 month of studying, despite having no prior production experience with AWS.
 I don't believe there's any subject I can't learn-given enough time and effort.
 
-To support my learning, I've been maintaining this [personal knowledge repository](https://github.com/hungcq/knowledge-repo)
+To support my learning, I've been maintaining this personal knowledge repository
 since 2021. It's where I distill and document what I've learned, primarily from books, but also from other types of material.
 The topics are broad, spanning philosophy, science, software engineering, and business.
 

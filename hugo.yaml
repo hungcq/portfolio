@@ -3,6 +3,12 @@ languageCode: en-us
 title: Portfolio | HungCQ
 theme: PaperMod
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
 params:
   env: production
   author: HungCQ
@@ -20,31 +26,76 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   ShowReadingTime: false
+  ShowShareButtons: false
   comments: false
 
+  summarylength: 10000
+  hidemeta: true
+
   cover:
-    hidden: true
-    hiddenInList: true
-    hiddenInSingle: true
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  showtoc: true
+
+  homeInfoParams:
+    Title: "👋 Hi there, and welcome!"
+    Content: >
+      This portfolio is a curated collection of my personal side projects—things I've built out of curiosity, passion,
+      and a drive to explore new ideas. For me, learning isn't just an activity but a lifelong commitment;
+      it shapes everything I do, from software engineering to reading and writing.
+      Unlike the work I've done for past employers (which remains closed-source), everything here is open for you to explore.
+      
+
+      These projects reflect my practical understanding of software engineering principles-from designing scalable systems
+      and writing clean, maintainable code, to choosing the right tools for the job.
+      You'll see a mix of technologies and programming languages as I enjoy working across the stack
+      and diving into new domains whenever the chance arises.
+      Alongside building, I'm always seeking to understand the “why” behind the “how,” and learning from every challenge.
+      
+      
+      Whether you're here to evaluate my technical skills or just to see what I've been working on,
+      I hope you find something interesting. Feel free to reach out—I'm always open to feedback and collaboration!
 
   socialIcons:
     - name: github
       url: https://github.com/hungcq
+    - name: linkedin
+      url: https://www.linkedin.com/in/hungcq
+    - name: goodreads
+      url: https://www.goodreads.com/hungcq
+    - name: whatsapp
+      url: https://wa.me/qr/4EEYREOFSGMVN1
+    - name: email
+      url: mailto:hungcqrt@gmail.com
+    - name: phone
+      url: tel:+84987134200
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
     - name: Home
       weight: 1
       url : /
-    - name: Essays
-      weight: 2
-      url : categories/essays/
-    - name: Poems
-      weight: 3
-      url : categories/poems/
-    - name: In English
-      weight: 4
-      url : categories/english/
-    - name: In Vietnamese
+#    - name: Essays
+#      weight: 2
+#      url : categories/essays/
+#    - name: Poems
+#      weight: 3
+#      url : categories/poems/
+#    - name: In English
+#      weight: 4
+#      url : categories/english/
+    - name: Search
       weight: 5
-      url : categories/vietnamese/
+      url : search
