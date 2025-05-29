@@ -2,6 +2,7 @@
 weight: 4
 title: "Bowling Score Tracker"
 github: https://github.com/hungcq/bowling-score-tracker
+technologies: Golang, Unit Testing
 #cover:
 #  image: /images/bowling-score-tracker.png
 summary: >
@@ -15,7 +16,7 @@ using a port-adapter architecture that keeps game logic independent from APIs an
 ensuring long-term maintainability and flexibility for future improvements.
 
 A cornerstone of this project is its **rigorous, sustainable test suite**.
-I hold myself to exceptionally high standards for unit testing—not just achieving broad coverage
+I hold myself to exceptionally high standards for unit testing-not just achieving broad coverage
 but prioritizing **clarity, reliability, and maintainability**. Tests focus on public API behaviors,
 employ real implementations and fakes where practical, and avoid brittle coupling to implementation details.
 Each test is named for the behavior it verifies, structured for readability with clear "given-when-then" patterns,

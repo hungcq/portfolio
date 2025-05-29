@@ -2,8 +2,8 @@
 weight: 1
 date: '2021-08-02T08:17:00+07:00'
 title: 'Knowledge Repository'
-github: https://github.com/hungcq/knowledge-repo
 hlink: https://knowledge-repo.hungcq.xyz
+github: https://github.com/hungcq/knowledge-repo
 cover:
   image: /images/knowledge-repo.png
 #  caption: "[Knowledge Repository rendered via GitBook](https://knowledge-repo.hungcq.xyz)"
