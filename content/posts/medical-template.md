@@ -3,8 +3,8 @@ weight: 6
 title: "Medical Contract Template"
 hlink: "https://medi-template.hungcq.xyz"
 github: https://github.com/hungcq/medical-template
-cover:
-  image: /images/medical-template.png
+#cover:
+#  image: /images/medical-template.png
 summary: >
   This simple browser-based app automates the process of filling out hospital procurement documents,
   saving my cousin’s team hours of repetitive work and greatly reducing errors.
@@ -28,3 +28,5 @@ Although simple, the app has saved the team thousands of hours of manual, error-
 Now, they only need to fill out a single form to generate all required documents with consistent and accurate information.
 This experience reaffirmed my belief that well-targeted software—even small,
 focused projects—can deliver immense value and solve real problems, especially for those underserved by existing solutions.
+
+![Screenshot](/images/medical-template.png)
