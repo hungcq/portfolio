@@ -13,8 +13,8 @@ summary: >
 
 Revisiting these early projects for my portfolio,
 I'm reminded of how much fun learning to program has always been for me-and still is today.
-From my first Pascal script that printed a heart on the console for my ex, to building an MVC “SuperCar” game in Java,
-and creating the “Do It Later” task-reminder Android app,
+From my first Pascal script that printed a heart on the console for my high school ex,
+to building an MVC "SuperCar" game in Java, and creating the "Do It Later" task-reminder Android app,
 I've always been thrilled by bringing my ideas to life on the screen.
 For me, programming isn't just about what I've accomplished,
 but about the endless possibilities it unlocks-limited only by my imagination.
