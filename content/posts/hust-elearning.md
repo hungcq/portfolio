@@ -31,6 +31,7 @@ The detailed specification and the end-to-end design we produced became a benchm
 Ultimately, we contributed both our research and source code to the university,
 where Dr. Nguyen Thanh Hung-the head of IT and our thesis supervisor-integrated the system into the university's IT infrastructure.
 It was an incredible learning journey, and a deeply satisfying contribution.
-If you're curious, I've included short and full demo videos below:
+
+If you're curious, I've included the short and full demo videos below:
 {{< youtube W1j8Fj9aOA4 >}}
 {{< youtube J3NTyW7gp9I >}}

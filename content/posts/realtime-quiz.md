@@ -33,5 +33,5 @@ then this project provides a detailed case study-from architecture diagrams
 and component breakdowns to hands-on implementation and operational strategies.
 
 For a deep-dive walkthrough, check out:
-- {{< youtube Pi7o-sam0rI >}}
-- {{< youtube LGP0GatYnbE >}}
+{{< youtube Pi7o-sam0rI >}}
+{{< youtube LGP0GatYnbE >}}
