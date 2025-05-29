@@ -9,6 +9,10 @@ outputs:
     - RSS
     - JSON # necessary for search
 
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
   env: production
   author: HungCQ
@@ -29,7 +33,6 @@ params:
   ShowShareButtons: false
   comments: false
 
-  summarylength: 10000
   hidemeta: true
   Truncated: false
   ShowBreadCrumbs: true
@@ -89,15 +92,6 @@ menu:
     - name: Home
       weight: 1
       url : /
-#    - name: Essays
-#      weight: 2
-#      url : categories/essays/
-#    - name: Poems
-#      weight: 3
-#      url : categories/poems/
-#    - name: In English
-#      weight: 4
-#      url : categories/english/
     - name: Search
-      weight: 5
+      weight: 2
       url : search
