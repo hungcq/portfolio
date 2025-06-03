@@ -1,7 +1,7 @@
 ---
 weight: 5
 title: "Knowledge Repo - RAG Chatbot"
-hlink: http://knowledge-repo-chatbot.hungcq.xyz
+hlink: https://knowledge-repo-chatbot.hungcq.xyz
 github: https://github.com/hungcq/knowledge-repo-rag
 technologies: Node.js, Python, React.js, Qdrant, vLLM, GPT4All, LLaMA, OpenAI
 cover:
