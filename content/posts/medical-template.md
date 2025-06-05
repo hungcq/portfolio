@@ -1,5 +1,5 @@
 ---
-weight: 6
+weight: 7
 title: "Medical Contract Template"
 hlink: "https://medi-template.hungcq.xyz"
 github: https://github.com/hungcq/medical-template

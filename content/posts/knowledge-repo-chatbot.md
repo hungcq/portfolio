@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 6
 title: "Knowledge Repo - RAG Chatbot"
 hlink: https://knowledge-repo-chatbot.hungcq.xyz
 github: https://github.com/hungcq/knowledge-repo-rag
@@ -22,3 +22,5 @@ This is a **Node.js + Python + React.js** project with two versions:
 Things I'd like to improve (when time permits):
 - Add a GitHub pipeline to automatically update the vector store whenever I update the knowledge repo.
 - Deploy the local version to the cloud (though that might cost me a bit 😂).
+
+[//]: # (![Screenshot]&#40;/images/knowledge-repo-rag.png&#41;)

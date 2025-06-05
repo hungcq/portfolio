@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 2
 date: '2021-08-02T08:17:00+07:00'
 title: 'Knowledge Repository'
 hlink: https://knowledge-repo.hungcq.xyz

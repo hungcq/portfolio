@@ -1,5 +1,5 @@
 ---
-weight: 8
+weight: 9
 title: "My Personal Blog"
 hlink: https://blog.hungcq.xyz
 #cover:

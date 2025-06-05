@@ -1,5 +1,5 @@
 ---
-weight: 9
+weight: 10
 title: "Learning Projects"
 github: https://github.com/hungcq/learning-projects
 technologies: Pascal, Java, Android...

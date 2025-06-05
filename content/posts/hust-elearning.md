@@ -1,5 +1,5 @@
 ---
-weight: 7
+weight: 8
 title: "Realtime e-Learning System"
 github: https://github.com/hungcq/learning-projects/blob/master/hust-remote-study/docs/graduation-thesis-chu-quoc-hung.md
 technologies: React.js, Redux.js, Socket.IO (WebSocket), Node.js/Express, GCP Storage & Firestore, Heroku
