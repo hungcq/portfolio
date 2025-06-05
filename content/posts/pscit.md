@@ -18,7 +18,7 @@ science, and technology, along with select titles in history, sociology, fiction
 All books are handpicked and mostly read, with titles in both English and Vietnamese.
 
 The accompanying website is a full-featured library management system that allows users to browse books,
-explore authors and categories, and request or approve reservations.
+explore authors and categories, request or approve reservations, and receive email notifications.
 I built the core functionalities in just one week using **Cursor** for accelerated development.
 
 Despite running on a cost-effective single-node Vultr instance,
