@@ -5,7 +5,7 @@ hlink: https://pscit.hungcq.xyz
 cover:
   image: /images/pscit.png
 github: https://github.com/hungcq/pscit
-technologies: Golang, React.js, PostgreSQL, K8S, CI/CD (GitHub Actions), AWS, EFK, Prometheus, Grafana
+technologies: Cursor, Go, React.js, PostgreSQL, K8s, CI/CD (GitHub Actions), AWS, EFK, Prometheus, Grafana
 summary: >
   PSciT is a physical library and web app I built to share curated books on philosophy, science, and technology,
   featuring a production-grade stack, all developed and deployed in just one week.

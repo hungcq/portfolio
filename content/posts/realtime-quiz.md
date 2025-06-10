@@ -2,7 +2,7 @@
 weight: 4
 title: "Realtime Quiz"
 github: https://github.com/hungcq/realtime-quiz
-technologies: React.js, Golang, Socket.IO (WebSocket), Kafka, Temporal.io, Redis
+technologies: React.js, Go, Socket.IO (WebSocket), Kafka, Temporal.io, Redis
 cover:
   image: /images/realtime-quiz-2-players.png
 summary: >
