@@ -1,7 +1,7 @@
 ---
 weight: 9
 title: "My Personal Blog"
-hlink: https://blog.hungcq.xyz
+hlink: https://blog.hungcq.com
 #cover:
 #  image: /images/blog.png
 github: https://github.com/hungcq/blog
@@ -12,7 +12,7 @@ summary: >
   poking holes in relativism, or examining what "engineering" really means in software.
 ---
 
-[My blog](https://blog.hungcq.xyz) is where I confront questions that seem simple, but reveal complexity the deeper you examine them.
+[My blog](https://blog.hungcq.com) is where I confront questions that seem simple, but reveal complexity the deeper you examine them.
 If you're wondering what to expect, the answer is rational critique.
 I question traditions and challenge entrenched beliefs, whether that means dissecting the concept of freedom,
 poking holes in relativism, or examining what "engineering" really means in software.

@@ -1,7 +1,7 @@
 ---
 weight: 7
 title: "Medical Contract Template"
-hlink: "https://medi-template.hungcq.xyz"
+hlink: "https://medi-template.hungcq.com"
 github: https://github.com/hungcq/medical-template
 technologies: React.js, docxtemplater, AWS S3, AWS CloudFront
 #cover:

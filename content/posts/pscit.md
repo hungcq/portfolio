@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "PSciT Library"
-hlink: https://pscit.hungcq.xyz
+hlink: https://pscit.hungcq.com
 cover:
   image: /images/pscit.png
 github: https://github.com/hungcq/pscit
