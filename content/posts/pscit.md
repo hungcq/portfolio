@@ -7,11 +7,11 @@ cover:
 github: https://github.com/hungcq/pscit
 technologies: Cursor, Go, React.js, PostgreSQL, K8s, CI/CD (GitHub Actions), AWS, EFK, Prometheus, Grafana
 summary: >
-  PSciT is a physical library and web app I built to share curated books on philosophy, science, and technology,
+  PSciT is a private library and web app I built to share curated books on philosophy, science, and technology,
   featuring a production-grade stack, all developed and deployed in just one week.
 ---
 
-**PSciT** (Philosophy, Science, and Technology) is a physical library I founded and maintain in Hanoi, Vietnam.
+**PSciT** (Philosophy, Science, and Technology) is a private library I founded and maintain in Hanoi, Vietnam.
 As a lifelong skeptic and curious reader,
 I built this collection to preserve and share books that have deeply influenced my thinking—primarily in philosophy,
 science, and technology, along with select titles in history, sociology, fiction, and practical domains.
