@@ -5,7 +5,7 @@ hlink: https://pscit.hungcq.com
 cover:
   image: /images/pscit.png
 github: https://github.com/hungcq/pscit
-technologies: Cursor, Go, React.js, PostgreSQL, K8s, CI/CD (GitHub Actions), AWS, EFK, Prometheus, Grafana
+technologies: Cursor, Go, React.js, PostgreSQL, K8s, CI/CD (GitHub Actions), AWS, Loki, Prometheus, Grafana
 summary: >
   PSciT is a private library and web app I built to share curated books on philosophy, science, and technology,
   featuring a production-grade stack, all developed and deployed in just one week.
@@ -25,7 +25,8 @@ Despite running on a cost-effective single-node Vultr instance,
 the system is production-grade with **automated CI/CD**, **security**, **observability**, and **configurability** in mind.
 It features:
 - Backend: **Golang, PostgreSQL, Docker, Kubernetes, GitHub Actions, HAProxy**
-- Observability: **Prometheus, Grafana, ElasticSearch, Kibana**
+- Observability: **Loki, Prometheus, Grafana**
+(Monitoring dashboards are available at [grafana.hungcq.com](https://grafana.hungcq.com), both username and password are guest)
 - Frontend: **React.js**, hosted on **AWS S3**, served via **AWS CloudFront**
 - Domain Management: **AWS Route 53** and **AWS Certificate Manager**
 
