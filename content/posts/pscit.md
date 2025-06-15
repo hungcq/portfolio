@@ -26,7 +26,7 @@ the system is production-grade with **automated CI/CD**, **security**, **observa
 It features:
 - Backend: **Golang, PostgreSQL, Docker, Kubernetes, GitHub Actions, HAProxy**
 - Observability: **Loki, Prometheus, Grafana**
-(Monitoring dashboards are available at [grafana.hungcq.com](https://grafana.hungcq.com), both username and password are guest)
+(Monitoring dashboards are available at [grafana.hungcq.com](https://grafana.hungcq.com), both username and password are *guest*)
 - Frontend: **React.js**, hosted on **AWS S3**, served via **AWS CloudFront**
 - Domain Management: **AWS Route 53** and **AWS Certificate Manager**
 
