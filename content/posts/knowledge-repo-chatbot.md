@@ -1,9 +1,9 @@
 ---
-weight: 6
+weight: 2
 title: "Knowledge Repo - RAG Chatbot"
 hlink: https://knowledge-repo-chatbot.hungcq.com
 github: https://github.com/hungcq/knowledge-repo-rag
-technologies: Node.js, Python, React.js, Qdrant, vLLM, GPT4All, LLaMA, OpenAI
+technologies: Node.js, Socket.IO, React.js, Qdrant, PostgreSQL, OpenAI, vLLM, GPT4All, LLaMA
 cover:
   image: /images/knowledge-repo-rag.png
 summary: >
@@ -11,16 +11,19 @@ summary: >
   so I built this chatbot from scratch to answer questions using resources from my knowledge repo.
 ---
 
-I wanted to understand how a Retrieval-Augmented Generation (RAG) application works,
-so I built this chatbot from scratch to answer questions using resources from my knowledge repo.
+I built Knowledge Repo RAG Chatbot to learn how Retrieval-Augmented Generation (RAG) applications work end-to-end.
+It’s a chatbot that answers questions using resources from [my own knowledge repository](https://knowledge-repo.hungcq.com).
 
-This is a **Node.js + Python + React.js** project with two versions:
-- Local version: uses **Qdrant** as the vector database, **Nomic** for text embeddings (via vLLM),
-  and a **LLaMA**-based model running locally with **GPT4All**.
-- API-based version: uses **OpenAI embeddings** and queries **GPT via OpenAI API**.
+This is a Node & React project has two flavors:
+- Local stack: **Qdrant** (vector DB), **Nomic embeddings** (via vLLM), and a **LLaMA** model with GPT4All.
+- Cloud stack: **OpenAI embeddings**, **Qdrant Cloud**, and GPT completions via **OpenAI API**.
 
-Things I'd like to improve (when time permits):
-- Add a GitHub pipeline to automatically update the vector store whenever I update the knowledge repo.
-- Deploy the local version to the cloud (though that might cost me a bit 😂).
+Key features include:
+- Data ingestion pipeline
+- Real-time chat with token streaming
+- Chat memory, history, and automatic title generation
+- Automated build and deployment
 
-[//]: # (![Screenshot]&#40;/images/knowledge-repo-rag.png&#41;)
+Planned improvements:
+- Pipeline to auto-update the vector store when the repo changes
+- Account system, authentication, rate-limit

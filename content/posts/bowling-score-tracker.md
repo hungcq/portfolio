@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 6
 title: "Bowling Score Tracker"
 github: https://github.com/hungcq/bowling-score-tracker
 technologies: Go, Unit Testing
